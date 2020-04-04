@@ -26,10 +26,10 @@ Once you have created an app on twitter and installed all the dependencies by ru
 
 # Built With
 
- Python 2.7
+ .Python 2.7
  
- tweepy
+ .tweepy
  
- textblob
+ .textblob
  
- re
+ .re
