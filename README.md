@@ -20,15 +20,22 @@ First of all login from your Twitter account and goto Twitter Apps. Create a new
 
 # Installation
 
-Download or Clone the repo, Navigate to the directory containing the files and run
+Tweepy: tweepy is the python client for the official Twitter API.
 
-      python setup.py install
-      
-or if you have different versions of python installed then
+Install it using following pip command: 
 
-      python3 setup.py install 
-      
-to install the dependencies.
+    pip install tweepy
+
+TextBlob: textblob is the python library for processing textual data.
+
+Install it using following pip command: 
+
+    pip install textblob
+Also, we need to install some NLTK corpora using following command:
+
+    python -m textblob.download_corpora
+    
+(Corpora is nothing but a large and structured set of texts.)
 
 
 # Usage
